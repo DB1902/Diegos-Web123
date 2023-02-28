@@ -10,7 +10,21 @@ header{
 img{
   display: block;
   margin-left: 25px;
+  
 }
 
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+section h2 {
+  width: fit-content;
+  background-color: aqua;
+}
 
+section div {
+  max-width: 50%;
+  background-color: aqua;
+  
+}
